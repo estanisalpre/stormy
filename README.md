@@ -1,26 +1,30 @@
-# Stormy Engine
+# Proyecto: Ciudad Abierta (nombre temporal)
 
-Motor de juego base 2D escrito en C++ con SDL2 para crear un MMORPG isométrico tipo Tibia/MU.
+## Mecánica principal
+Un MMORPG con profesiones realistas, economía viva, reputación social y eventos cíclicos.
 
-## Estructura
+## Roles iniciales (MVP)
+- Policía
+- Criminal
+- Médico
+- Taxista
+- Tendero
 
-stormy-game/
-├── src/ → Código fuente
-│ ├── core/ → Motor principal
-│ └── entities/ → Jugador, NPCs, etc.
-├── include/ → Headers externos (SDL2)
-├── lib/ → Librerías .lib/.a de SDL2
-├── bin/ → Ejecutable final
-│ └── SDL2.dll
-├── build.bat → Script para compilar y ejecutar
+## Mapas
+- Zona urbana central
+- Suburbios
+- Comisaría
+- Hospital
+- Cárcel
+- Casas para jugadores
 
+## Ciclo de juego
+1. Elegís rol
+2. Hacés tareas → ganás dinero → mejorás equipo o reputación
+3. Interacción constante con jugadores (negocio, crimen, política)
 
-## Requisitos
-
-- g++ (MinGW-W64)
-- SDL2 (copiar include/, lib/, y SDL2.dll)
-
-## Cómo compilar
-
-```bash
-build.bat
+## MVP Loop
+- Jugador se une, elige rol.
+- Puede moverse, interactuar con NPCs y otros jugadores.
+- Hay tareas base por profesión.
+- Economía entre jugadores: cobrar, pagar, vender.
