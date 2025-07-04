@@ -1,65 +1,46 @@
-[gd_resource type="TileSet" load_steps=19 format=3 uid="uid://dww4gimxxrnwx"]
-
-[ext_resource type="Texture2D" uid="uid://cakv0kc3s4ds8" path="res://assets/Dungeon/Isometric/dirtTiles_E.png" id="1_0pou3"]
-[ext_resource type="Texture2D" uid="uid://dl1u5yxyh2bpa" path="res://assets/Dungeon/Isometric/dirtTiles_N.png" id="2_m7ylv"]
-[ext_resource type="Texture2D" uid="uid://ysi8gd4hmnac" path="res://assets/Dungeon/Isometric/dirtTiles_S.png" id="3_qyays"]
-[ext_resource type="Texture2D" uid="uid://bddbpu3ikfemc" path="res://assets/Dungeon/Isometric/dirtTiles_W.png" id="4_vk6oq"]
-[ext_resource type="Texture2D" uid="uid://i4ednr62kbr5" path="res://assets/Dungeon/Isometric/dirt_E.png" id="5_ylt6t"]
-[ext_resource type="Texture2D" uid="uid://cdbm0mro27g3l" path="res://assets/Dungeon/Isometric/dirt_N.png" id="6_lgpbj"]
-[ext_resource type="Texture2D" uid="uid://bt6gry2klidw4" path="res://assets/Dungeon/Isometric/dirt_S.png" id="7_y7ahr"]
-[ext_resource type="Texture2D" uid="uid://cg3ow73ncy5fv" path="res://assets/Dungeon/Isometric/dirt_W.png" id="8_jx114"]
-[ext_resource type="Texture2D" uid="uid://np83ca3g4y8d" path="res://assets/Dungeon/Isometric/stoneWallAged_E.png" id="9_m7ylv"]
+[gd_resource type="TileSet" load_steps=10 format=3 uid="uid://dww4gimxxrnwx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_q1kd2"]
-texture = ExtResource("1_0pou3")
 texture_region_size = Vector2i(256, 128)
 0:2/0 = 0
 0:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_op0be"]
-texture = ExtResource("2_m7ylv")
 texture_region_size = Vector2i(256, 128)
 0:2/0 = 0
 0:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_w3kvc"]
-texture = ExtResource("3_qyays")
 texture_region_size = Vector2i(256, 128)
 0:2/0 = 0
 0:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dsm5r"]
-texture = ExtResource("4_vk6oq")
 texture_region_size = Vector2i(256, 128)
 0:2/0 = 0
 0:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hnius"]
-texture = ExtResource("5_ylt6t")
 texture_region_size = Vector2i(256, 128)
 0:2/0 = 0
 0:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h6ah0"]
-texture = ExtResource("6_lgpbj")
 texture_region_size = Vector2i(256, 128)
 0:2/0 = 0
 0:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ntnhp"]
-texture = ExtResource("7_y7ahr")
 texture_region_size = Vector2i(256, 128)
 0:2/0 = 0
 0:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c4v46"]
-texture = ExtResource("8_jx114")
 texture_region_size = Vector2i(256, 128)
 0:2/0 = 0
 0:3/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qyays"]
-texture = ExtResource("9_m7ylv")
 texture_region_size = Vector2i(256, 128)
 0:1/0 = 0
 0:2/0 = 0
