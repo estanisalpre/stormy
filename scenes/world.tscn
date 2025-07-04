@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw13c2rhjdbun"]
+
+[ext_resource type="TileSet" uid="uid://dww4gimxxrnwx" path="res://maps/floor.tres" id="1_rwgxs"]
+[ext_resource type="PackedScene" uid="uid://05tubnt6okem" path="res://scenes/player.tscn" id="2_4wyf3"]
+
+[node name="world" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_set = ExtResource("1_rwgxs")
+
+[node name="player" parent="." instance=ExtResource("2_4wyf3")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
